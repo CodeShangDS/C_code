@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="text_10_15.c">
+    <ClCompile Include="text_10_20.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="add.c">

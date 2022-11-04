@@ -27,19 +27,26 @@
 
 //static ¾²Ì¬µÄ 
 
-void test()
-{
-	static int a = 1;
-	a++;
-	printf("%d ", a);
-}
+//void test()
+//{
+//	static int a = 1;
+//	a++;
+//	printf("%d ", a);
+//}
+//int main()
+//{
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		test();
+//		i++;		
+//	}
+//	return 0;
+//}
+
+extern int g_val;
 int main()
 {
-	int i = 0;
-	while (i < 10)
-	{
-		test();
-		i++;		
-	}
+	printf("%d", g_val);
 	return 0;
 }
